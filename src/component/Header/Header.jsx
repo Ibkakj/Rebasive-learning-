@@ -9,25 +9,22 @@ const Header = () => {
     >
       <div>
         <img
-          src="src\assets\9 17.png"
+          src="/9 17.png"
           className=" w-[117px] absolute mt-[-70px] left-1/2 transform -translate-x-1/2 "
         />
         <img
-          src="src\assets\9 18.png"
+          src="/9 18.png"
           className=" w-[117px] absolute left-[170px] ml-[60px] mt-[30px]"
         />
         <img
-          src="src\assets\9 19.png"
+          src="/9 19.png"
           className=" w-[117px] absolute right-3 top-[70px] mr-[60px]"
         />
         <img
-          src="src\assets\9 20.png"
+          src="/9 20.png"
           className=" w-[70px] absolute right-56 top-60 mr-[40px]"
         />
-        <img
-          src="src\assets\9 21.png"
-          className=" w-[109px] absolute top-65 left-39"
-        />
+        <img src="/9 21.png" className=" w-[109px] absolute top-65 left-39" />
       </div>
       <div className="text-white text-center">
         <h1 className="header-text text-[90px] font-inter pt-[30px]">
