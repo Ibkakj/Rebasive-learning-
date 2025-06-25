@@ -4,24 +4,15 @@ const Section = () => {
   return (
     <div className="bg-gray-700 flex rounded-[35px] h-[900px] w-auto">
       <div className="flex flex-col justify-between p-[50px] ">
-        <img
-          src="src\assets\Transactions.png"
-          className="w-[300px] h-[400px]"
-        />
-        <img src="src\assets\Homepage.png" className="w-[300px] h-[350px]" />
+        <img src="/Transactions.png" className="w-[300px] h-[400px]" />
+        <img src="/Homepage.png" className="w-[300px] h-[350px]" />
       </div>
       <div>
-        <img
-          src="src\assets\Clay-Dark.png"
-          className="w-[400px] h-[800px] mt-[-100px]"
-        />
+        <img src="/Clay-Dark.png" className="w-[400px] h-[800px] mt-[-100px]" />
       </div>
       <div className="flex  flex-col justify-between p-[50px] gap-x-[30px]">
-        <img
-          src="src\assets\Receipt Card.png"
-          className="w-[300px] h-[400px]"
-        />
-        <img src="src\assets\Send Money.png" className="w-[300px] h-[350px]" />
+        <img src="/Receipt Card.png" className="w-[300px] h-[400px]" />
+        <img src="/Send Money.png" className="w-[300px] h-[350px]" />
       </div>
     </div>
   );
