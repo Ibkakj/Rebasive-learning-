@@ -2,7 +2,7 @@ import React from "react";
 
 const Section = () => {
   return (
-    <div className="bg-gray-700 flex rounded-[35px] h-[900px] w-auto">
+    <div className=" flex  h-[900px] w-auto max-w-[1024px] m-auto justify-center">
       <div className="flex flex-col justify-between p-[50px] ">
         <img src="/Transactions.png" className="w-[300px] h-[400px]" />
         <img src="/Homepage.png" className="w-[300px] h-[350px]" />

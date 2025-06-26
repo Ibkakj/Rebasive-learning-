@@ -11,3 +11,15 @@
   font-weight: 600;
   line-height: 100px;
 }
+.how-it-works h2 {
+  font-family: var(--font-inter);
+  font-weight: 700;
+  line-height: 100%;
+}
+.upper_image {
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.upper_image:hover {
+  transform: scale(1.1);
+}
