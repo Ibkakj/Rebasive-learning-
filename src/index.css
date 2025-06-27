@@ -23,3 +23,8 @@
 .upper_image:hover {
   transform: scale(1.1);
 }
+
+/* responsiveness */
+@media screen {
+  max-width: 768px;
+}

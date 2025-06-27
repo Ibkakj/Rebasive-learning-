@@ -7,24 +7,27 @@ const Header = () => {
       className="relative bg-cover bg-center h-[650px] rounded-t-3xl mt-[20px]"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
-      <div>
+      <div className="flex max-w-[1024px] m-auto justify-center">
         <img
           src="/9 17.png"
           className=" w-[117px] absolute mt-[-70px] left-1/2 transform -translate-x-1/2 "
         />
         <img
           src="/9 18.png"
-          className=" w-[117px] absolute left-[170px] ml-[60px] mt-[30px]"
+          className=" w-[117px] absolute ml-[-490px] mt-[30px]"
         />
         <img
           src="/9 19.png"
-          className=" w-[117px] absolute right-3 top-[70px] mr-[60px]"
+          className=" w-[117px] absolute top-[70px] mr-[-860px]"
         />
         <img
           src="/9 20.png"
-          className=" w-[70px] absolute right-56 top-60 mr-[40px]"
+          className=" w-[70px] absolute top-60 mr-[-550px]"
         />
-        <img src="/9 21.png" className=" w-[109px] absolute top-65 left-39" />
+        <img
+          src="/9 21.png"
+          className=" w-[109px] absolute top-65 ml-[-640px]"
+        />
       </div>
       <div className="text-white text-center">
         <h1 className="header-text text-[90px] font-inter pt-[30px]">
