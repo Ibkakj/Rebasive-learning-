@@ -39,11 +39,11 @@ const Header = () => {
         </p>
       </div>
       <div className="flex justify-center items-center mt-[60px]">
-        <div className="lg:waitlist_join mx-auto flex border-[1px] border-white w-auto  p-2 rounded-4xl">
+        <div className=" flex border-[1px] border-white w-auto  p-2 rounded-4xl">
           <input
             type="text"
             placeholder="Enter email"
-            className="outline-none w-auto pl-[30px] placeholder:text-gray-100"
+            className="text_input outline-none w-[400px] pl-[30px] placeholder:text-gray-100"
           />
           <button className="items-center bg-[#00C996] p-2 rounded-3xl text-slate-50 w-[150px]">
             Join Waitlist

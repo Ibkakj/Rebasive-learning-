@@ -16,11 +16,13 @@
   font-weight: 700;
   line-height: 100%;
 }
-.upper_image {
+.upper_image,
+.upper_image-right {
   transition: 0.3s ease;
   cursor: pointer;
 }
-.upper_image:hover {
+.upper_image:hover,
+.upper_image-right:hover {
   transform: scale(1.1);
 }
 
@@ -106,11 +108,12 @@
     gap: 10px;
   }
   .upper_image {
-    width: 40%;
-    margin-left: 80px;
+    width: 45%;
+    margin-left: 50px;
   }
   .upper_image-right {
-    width: 43%;
+    width: 45%;
+    margin-left: -160px;
   }
   .left_text h2,
   .right_text h2 {
@@ -144,14 +147,14 @@
   }
   .footer {
     display: flex;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
-    margin-left: 60px;
+    margin-left: 80px;
   }
   .socials,
   .hotline {
     margin-left: 0px;
     margin-top: 30px;
+  }
+  .text_input {
+    width: auto;
   }
 }
