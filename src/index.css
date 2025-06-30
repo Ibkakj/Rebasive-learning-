@@ -1,7 +1,7 @@
-@import "tailwindcss";
-
 /* google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import "tailwindcss";
 
 :root {
   --font-inter: "Inter", sans-serif;
@@ -25,6 +25,133 @@
 }
 
 /* responsiveness */
-@media screen {
-  max-width: 768px;
+@media screen and (max-width: 768px) {
+  .body {
+    padding-top: 30px;
+  }
+  .nav_bar_img {
+    width: 100px;
+    height: 25px;
+  }
+  .nav_bar {
+    padding-inline: 30px;
+  }
+  .nav_btn {
+    padding: 7px 20px;
+    border: solid 1px;
+  }
+  .header_section {
+    padding-inline: 30px;
+  }
+  .header-text {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  .header_reb {
+    font-size: 16px;
+    font-weight: 16px;
+    padding-top: 13px;
+  }
+  .waitlist_join {
+    width: 400px;
+    padding: 4px;
+    color: white;
+  }
+  .waitlist_join button {
+    padding: 10px 8px;
+    width: 200px;
+  }
+  .rebasive_back_g {
+    height: 500px;
+  }
+  .dummy img {
+    width: 60px;
+  }
+  .dummy_1 {
+    margin-top: -40px;
+  }
+  .dummy_2 {
+    margin-left: -270px;
+  }
+  .dummy_3 {
+    margin-right: -450px;
+  }
+  .dummy_4 {
+    margin-top: -100px;
+    margin-left: -187px;
+  }
+  .dummy_5 {
+    margin-left: -450px;
+    margin-top: -100px;
+  }
+  .card_transactions {
+    height: 60%;
+    margin-top: 30px;
+  }
+  .cards {
+    padding: 20px;
+    height: auto;
+  }
+
+  .phone {
+    height: 100%;
+    width: 100%;
+    margin-top: -50px;
+  }
+  .receipt {
+    height: 50%;
+    padding: 10px;
+  }
+  .content {
+    gap: 10px;
+  }
+  .upper_image {
+    width: 40%;
+    margin-left: 80px;
+  }
+  .upper_image-right {
+    width: 43%;
+  }
+  .left_text h2,
+  .right_text h2 {
+    font-size: 24px;
+    line-height: 140%;
+  }
+  .dummy_alone {
+    display: none;
+  }
+  .refs {
+    gap: 150px;
+  }
+  .left,
+  .right {
+    gap: 150px;
+    padding: 30px 30px;
+  }
+  .bg-cover {
+    height: 400px;
+  }
+  .rebasive_seg {
+    padding: 30px;
+  }
+  .rebasive_seg h1 {
+    font-size: 45px;
+    line-height: 140%;
+  }
+  .rebasive_content {
+    padding-left: 4em;
+    padding-top: 3em;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-left: 60px;
+  }
+  .socials,
+  .hotline {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
 }

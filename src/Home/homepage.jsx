@@ -9,16 +9,16 @@ import Footer from "../component/Footer/footer";
 
 const homepage = () => {
   return (
-    <div className="pt-[50px]  bg-[#F5F5F5]">
-      <div className="px-[80px]">
+    <div className="body pt-[50px]  bg-[#F5F5F5]">
+      <div className="nav_bar px-[80px]">
         <Navbar />
       </div>
-      <div className="px-[80px]">
+      <div className="header_section px-[80px]">
         <div className="pt-[40px]  ">
           <Header />
         </div>
 
-        <div className="bg-zinc-800 relative mt-[-70px] rounded-[35px]">
+        <div className=" bg-zinc-800 relative mt-[-70px] rounded-[35px]">
           <Section />
         </div>
       </div>
@@ -31,11 +31,11 @@ const homepage = () => {
         <Howitwork />
       </div>
 
-      <div className="px-[80px]">
+      <div className="rebasive_seg px-[80px]">
         <Segment />
       </div>
 
-      <div className="bg-black mt-18">
+      <div className="flex items-center justify-center bg-black mt-18">
         <Footer />
       </div>
     </div>

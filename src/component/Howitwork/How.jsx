@@ -9,16 +9,16 @@ const How = () => {
           The next generation of money app
         </p>
       </div>
-      <div className="mt-[130px]">
+      <div className=" mt-[130px]">
         <div className="left flex gap-[200px] justify-center">
           <img
             src="/9 22.png"
-            className=" absolute w-[117px] mt-[-100px] mr-[-900px] justify-center"
+            className="dummy_alone absolute w-[117px] mt-[-100px] mr-[-900px] justify-center"
           />
           <div className="image-left">
             <img
               src="/Group 33920.png"
-              className="upper_image absolute ml-[100px] mt-[-80px]"
+              className="upper_image absolute ml-[100px] mt-[-80px] "
             />
             <img
               src="/Receipt Card.png"
@@ -40,7 +40,7 @@ const How = () => {
           <div className="image-left">
             <img
               src="/Group 33894.png"
-              className="upper_image absolute ml-[-190px] mt-[-80px] w-[300px]"
+              className="upper_image-right absolute ml-[-190px] mt-[-80px] w-[300px]"
             />
             <img src="/map.png" className="w-[280px]" />
           </div>

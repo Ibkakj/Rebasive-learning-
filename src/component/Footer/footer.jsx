@@ -2,7 +2,7 @@ import React from "react";
 
 const footer = () => {
   return (
-    <footer className=" text-white py-10 mt-10 max-w-[1024px] m-auto justify-center">
+    <footer className="footer text-white py-10 mt-10 max-w-[1024px] m-auto justify-center">
       <div className="flex justify-between flex-wrap">
         {/* Left Section */}
         <div className="w-[350px]">
@@ -20,7 +20,7 @@ const footer = () => {
         </div>
 
         {/* Address */}
-        <div className="w-[400px]">
+        <div className="hotline w-[400px]">
           <div className="flex justify-between">
             <div>
               <h3 className="text-[28px]/[157%]">Address</h3>
@@ -62,7 +62,7 @@ const footer = () => {
         </div>
 
         {/* Social and Form */}
-        <div className="w-[200px] ml-[50px]">
+        <div className="socials w-[200px] ml-[50px]">
           <h3 className="text-[28px]/[157%]">Social networks</h3>
           <ul className="space-y-2 text-gray-400 mb-6 text-[15px]/[157%]">
             <li>

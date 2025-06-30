@@ -21,7 +21,7 @@ const brands = () => {
   ];
   return (
     <div className="lg:container mx-auto">
-      <div className="grid grid-cols-4 justify-self-center items-center w-[600px] gap-[30px]">
+      <div className="content grid grid-cols-4 justify-self-center items-center gap-[30px]">
         {brand?.map((brand) => (
           <div key={brand?.id} className="brand_list ">
             <img src={brand?.image} alt="brands" />
